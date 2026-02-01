@@ -22,13 +22,9 @@ int main(){
 				if (A[j]==rnum)
 					numok = 1;
 			}
-		}
-		if (numok == 1)
-			i--;
-		else 
-			A[i]=rnum;
-		if (i==N-1)
-			printf("\n");	
+		} 
+		A[i]=rnum;
+	
 	}
 	printf("\nA[%d] = {",N);
 	for (i=0;i<N;i++){
