@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//i'll be back sleepy now
+
 int random100to200();
 
 int main(){
@@ -45,3 +45,4 @@ int random100to200() {
     int random_num = (rand() % 101) + 100;   
     return random_num;
 }
+
